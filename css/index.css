@@ -119,9 +119,9 @@ header nav a {
 }
 
 .middle-img {
-	display: flex;
-	flex-direction: row;
-	justify-items: center;
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 7%;
 }
 
 .bottom-content {
@@ -250,6 +250,7 @@ img.services-header-img {
 header {
     display: flex;
     flex-wrap: wrap-reverse;
+    margin-left: 13%;
 }    
 header .logo {
     margin-left: 30%;
@@ -263,6 +264,9 @@ nav {
 }
 
     /*cta*/
+.cta {
+    margin-left: 17%;
+}    
 .cta img {
     display: none;
 }
@@ -270,25 +274,24 @@ nav {
     /*main-content*/
 .main-content {
     width: 80%;
+    margin-left: 10%;
 }    
 .middle-img {
-    width: 600px;
-    display: flex;
-    flex-direction: row;
-	justify-items: center;
+    width: 85%;
+    margin-left: 7%;
 }
 .top-content .text-content {
-    width: 30%;
+    width: 40%;
 }    
 
 .bottom-content .text-content {
-    width: 25%;
+    width: 30%;
     margin: 15px;
 } 
 
 /*contact*/
 .contact {
-    margin-left: 30px;
+    margin-left: 14%;
 }
 
 }
@@ -304,21 +307,45 @@ nav {
     header {
         display: flex;
         flex-wrap: wrap-reverse;
+        margin: 0;
+        margin-top: 5%;
     }    
+
+    header .logo {
+        margin-left: 30%;
+        margin-right: 30%; 
+        margin-bottom: 1%;
+    }
+
    
     nav {
         display: flex;
         flex-direction: column;
-        margin-left: 37%;
+        margin-left: 25%;
         margin-right: 30%;
+        width: 50%;
+        align-items: center;
+        border-top: 1px solid black;
+        
     }
 
     nav a {
+        padding-bottom: 7%;
         border-bottom: 1px solid black;
+        width: 100%;
+        text-align: center;
+    }
 
+    header nav a {
+        margin-bottom: 0;
+        margin-top: 5px;
     }
     
         /*cta*/
+
+    .cta {
+        margin: 0;
+    }    
     .cta img {
         display: none;
     }
@@ -326,17 +353,21 @@ nav {
     .cta-text {
         width: 30%; 
         font-size: 50px; 
-        margin-top: 5%; 
-        margin-bottom: 5%; 
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 5%;
+        margin-bottom: 8%;
     }
     
         /*main-content*/
     .main-content {
-        width: 70%;
-    }    
+        width: 90%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }   
     .middle-img {
-       width: 100%;
-       margin-left: 18%;
+       width: 85%;
+       margin-left: 7%;
     }
 
     .top-content {
@@ -361,7 +392,7 @@ nav {
     
     /*contact*/
     .contact {
-        margin-left: 30px;
+        margin-left: 13%;
     }
     
     }
